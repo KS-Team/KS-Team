@@ -1,0 +1,48 @@
+html, body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #F3F3F3;
+    font-family: 'Noto Sans KR', sans-serif;
+    word-break: keep-all;
+}
+
+main {
+    margin: 100px 0;
+    padding: 50px 2rem !important;
+    background: white;
+    border-radius: 15px;
+}
+
+section {
+    padding: 30px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    margin: 0 0 2rem 0;
+}
+
+.card-wrap {
+    overflow: auto;
+}
+
+.card {
+    width: 100%;
+    height: 7.5rem;
+    max-width: 18rem;
+    float: left;
+}
+
+@media print {
+    html, body {
+        background: none;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+}
